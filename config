@@ -21,7 +21,7 @@ include /etc/sway/config-vars.d/*
 output eDP-1 resolution 2520x1680@90Hz scale 1.25
 
 # wallpaper
-output * bg $wallpaper fill
+# output * bg $wallpaper fill
 
 # borders
 default_border none
@@ -263,5 +263,8 @@ bar {
 #
 
 exec mako
+
+# wallmanagerd can be safely launched again as it the necessary checks
+exec_always sh -c '$HOME/bin/wallmanagerd'
 
 include /etc/sway/config.d/*
