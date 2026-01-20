@@ -228,6 +228,7 @@ bindgesture swipe:left workspace next
 		for_window [app_id="org.gnome.Calculator"] floating enable
 		for_window [app_id="thunderbird"] floating enable
 		for_window [app_id="blueman-manager"] floating enable
+		for_window [app_id="com.chatterino.chatterino"] floating enable
 		for_window [class="TrueConf"] floating enable
 		for_window [class="discord"] floating enable
 
